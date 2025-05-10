@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+tutor-env/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# Database
+*.db
+
+# Generated files
+generated_audio/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System Files
+.DS_Store
+Thumbs.db
+
+*.zip
+
+*.ipynb
+
+test.py

@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+openai
+pydantic
+python-multipart # For handling file uploads
+sqlalchemy
+aiosqlite
+pytest
+freezegun
+boto3

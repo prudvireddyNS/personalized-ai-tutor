@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  tutorai:
+    build: .
+    image: prudvireddy/tutorai:v1
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - .:/backend
